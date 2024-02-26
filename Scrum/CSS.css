@@ -58,7 +58,7 @@ img {
 @media(max-width:480px){
     
     .txt1, .txt2{
-        
+     font-size: small;   
     }
     
     

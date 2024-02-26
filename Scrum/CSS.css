@@ -21,7 +21,7 @@ h2{
     text-align: center;
 }
 
-#cajas {
+#cajas{
     border: 5px solid #ccc;
     border-radius: 10px;
     width: 80%;
@@ -32,7 +32,7 @@ h2{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.tablas {
+.tablas{
     width: 100%;
     height: auto;
 }
@@ -53,4 +53,17 @@ img {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+@media(max-width:480px){
+    
+    .txt1, .txt2{
+        
+    }
+    
+    
+    img{
+        width: 500rem;
+        height: 10rem;
+    }
 }

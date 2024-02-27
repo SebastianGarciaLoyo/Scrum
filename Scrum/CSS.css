@@ -81,16 +81,22 @@ img {
 }
 
 /* Estilos de la pagina servicios 2 */
-.card{
-    display: grid;
+
+.container {
+    display: flex;
+    justify-content: space-evenly; 
+    
+}
+
+
+
+.card {
     width: 250px;
-    /* background-color: #e9e7e7; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin: 10px;
     flex-wrap: wrap;
 }
-
 .title {
     font-size: 28px;
     color: #4CAF50;
